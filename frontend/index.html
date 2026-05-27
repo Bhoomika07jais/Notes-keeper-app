@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Notes Keeper</title>
+
+    <link rel="stylesheet"
+    href="style.css">
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+    <h1>Notes Keeper</h1>
+
+    <input
+    type="text"
+    id="searchBox"
+    placeholder="Search Notes"
+    onkeyup="searchNotes()">
+
+</div>
+
+<div class="add-note">
+
+    <input
+    type="text"
+    id="noteTitle"
+    placeholder="Note Title">
+
+    <input
+    type="text"
+    id="searchBox"
+    placeholder="Search Notes"
+    onkeyup="searchNotes()">
+
+    <textarea
+    id="noteDescription"
+    placeholder="Write your note...">
+    </textarea>
+
+    <select id="noteColor">
+
+        <option value="#ffeb3b">
+            purple
+        </option>
+
+        <option value="#80deea">
+            lite Blue
+        </option>
+
+        <option value="#a5d6a7">
+           lite Green
+        </option>
+
+        <option value="#f48fb1">
+            Pink
+        </option>
+
+    </select>
+</div>
+
+<div id="notesContainer"
+class="notes-grid">
+
+</div>
+<div class="action-buttons">
+
+    <button onclick="addNote()">
+
+        Add Note
+
+    </button>
+
+    <button onclick="showAllNotes()"
+    class="show-btn">
+
+        Display All Notes
+
+    </button>
+
+</div>
+<script src="app.js"></script>
+
+</body>
+</html>
