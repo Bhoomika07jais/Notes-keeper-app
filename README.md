@@ -1,2 +1,2 @@
 # Notes-keeper-app
-live link:Published deploy for effortless-gaufre-c99561
+live link:https://Published deploy for effortless-gaufre-c99561.netlify.com
